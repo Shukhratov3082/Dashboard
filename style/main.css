@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gray;
+}
+
+aside {
+  width: 280px;
+  height: 100%;
+  background-color: #F9F9F9;
+  padding: 50px 62px;
+  font-size: 10px;
+}
+
+aside .as-div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 22px;
+  gap: 41px;
+  color: #7987A5;
+}
+
+aside .as-div1 .asdiv1-img {
+  position: relative;
+  left: -7px;
+  top: 22px;
+}
+
+aside .as-div1 .asdiv1-h1 {
+  margin-bottom: 20px;
+  margin-left: -18px;
+  color: #1C295D;
+}
+
+aside .as-div3, aside .as-bot2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  gap: 74px;
+  margin-bottom: 26px;
+  color: #7987A5;
+}
+
+aside .as-div3 {
+  margin-bottom: 50px;
+}
+
+aside .as-bot22 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  gap: 87px;
+  margin-bottom: 22px;
+  color: #7987A5;
+}
+
+aside .as-div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  gap: 80px;
+  margin-bottom: 22px;
+  color: #7987A5;
+}
+
+aside .asidebottom {
+  height: 239px;
+  width: 178px;
+  background: #CFC8FF;
+  border-radius: 13px;
+  padding: 0 20px;
+  margin-top: 47px;
+  margin-left: -10px;
+}
+
+aside .asidebottom img {
+  position: relative;
+  left: -11px;
+}
+
+aside .asidebottom button {
+  height: 46px;
+  width: 140px;
+  border-radius: 13px;
+  padding: 15px, 35px;
+  border: 0;
+  color: #5F75EE;
+}
+
+main {
+  width: 722px;
+  height: 100%;
+  background-color: white;
+  padding: 66px;
+}
+
+main .qidiru {
+  height: 48px;
+  width: 594px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  border-radius: 40px;
+  padding: 14px 21px;
+  background: #F7F8FA;
+  margin-bottom: 97px;
+}
+
+main .div3ta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+  margin-bottom: 42px;
+}
+
+main .div3ta img {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+}
+
+main .div3ta .nuqta {
+  position: absolute;
+  top: 29px;
+  left: 150px;
+}
+
+main .div3ta h2, main .div3ta p {
+  font-size: 12px;
+}
+
+main .div3ta h1 {
+  font-size: 22px;
+  margin-top: 127px;
+  margin-bottom: 18px;
+}
+
+main .div3ta .maindiv1 {
+  position: relative;
+  height: 263px;
+  width: 178px;
+  border-radius: 10px;
+  background: #FDEDD5;
+  padding: 29px 15px;
+}
+
+main .div3ta .maindiv2 {
+  position: relative;
+  height: 263px;
+  width: 178px;
+  border-radius: 10px;
+  background: #FDE4F9;
+  padding: 29px 15px;
+}
+
+main .div3ta .maindiv3 {
+  position: relative;
+  height: 263px;
+  width: 178px;
+  border-radius: 10px;
+  background: #B5E0E9;
+  padding: 29px 15px;
+}
+
+main .scroll {
+  margin-left: 139px;
+  margin-bottom: 80px;
+}
+
+main .mainbot1 .dumaloq {
+  position: absolute;
+  margin-left: 256px;
+  top: 600px;
+}
+
+main .mainbot1 .mainbot1-hed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 46px;
+}
+
+main .mainbot1 .mainbot1-hed .setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+main .mainbot1 .mainbot1-hed .edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .shitdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 44px;
+  margin-bottom: 50px;
+}
+
+main .shitdiv .birlash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+main .shitdiv h1 {
+  font-size: 18px;
+}
+
+main .shitdiv p {
+  font-size: 14px;
+}
+
+main .tokdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+main .tokdiv .birlash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+main .tokdiv h1 {
+  font-size: 18px;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background: #F9FAFF;
+  padding: 45px;
+}
+
+section .header {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  color: #7B7B7B;
+  margin-bottom: 50px;
+}
+
+section .header img {
+  position: relative;
+  top: 90px;
+}
+
+section .secsenter .secdiv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 34px;
+  font-size: 34px;
+}
+
+section .secsenter .secdiv1 h3 {
+  font-size: 16px;
+}
+
+section .secsenter .secdiv2 {
+  width: 344px;
+  height: 118px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 9px;
+  padding: 17px 18px;
+  margin-bottom: 15px;
+}
+
+section .secsenter .secdiv2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .secsenter .secdiv2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+section .secsenter .secdiv3 {
+  width: 344px;
+  height: 118px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 9px;
+  padding: 17px 18px;
+  margin-bottom: 53px;
+}
+
+section .secsenter .secdiv3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .secsenter .secdiv3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+section .secsenter .secdiv4 {
+  width: 344px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #51459e4a;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+section .secsenter .secdiv5 .both1 {
+  margin-bottom: 33px;
+}
+
+section .secsenter .secdiv5 .div4ta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 19px;
+  color: #5D4E7B;
+}
+
+section .secsenter .secdiv5 .div4ta .div4ichi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  text-align: start;
+}
+
+section .secsenter .secdiv5 .div4ta .botson {
+  text-align: end;
+}
+
+section .secsenter .secdiv5 .div4ta .botson .yashil {
+  color: #50DFB2;
+}
+/*# sourceMappingURL=main.css.map */
